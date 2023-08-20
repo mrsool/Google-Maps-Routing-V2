@@ -1,0 +1,95 @@
+{
+  "client_library": {
+    "name": "google-maps-routing-v2",
+    "version": "",
+    "language": "RUBY",
+    "apis": [
+      {
+        "id": "google.maps.routing.v2",
+        "version": "v2"
+      }
+    ]
+  },
+  "snippets": [
+    {
+      "region_tag": "routing_v2_generated_Routes_ComputeRoutes_sync",
+      "title": "Snippet for the compute_routes call in the Routes service",
+      "description": "This is an auto-generated example demonstrating basic usage of Google::Maps::Routing::V2::Routes::Client#compute_routes. It may require modification in order to execute successfully.",
+      "file": "routes/compute_routes.rb",
+      "language": "RUBY",
+      "client_method": {
+        "short_name": "compute_routes",
+        "full_name": "::Google::Maps::Routing::V2::Routes::Client#compute_routes",
+        "async": false,
+        "parameters": [
+          {
+            "type": "::Google::Maps::Routing::V2::ComputeRoutesRequest",
+            "name": "request"
+          }
+        ],
+        "result_type": "::Google::Maps::Routing::V2::ComputeRoutesResponse",
+        "client": {
+          "short_name": "Routes::Client",
+          "full_name": "::Google::Maps::Routing::V2::Routes::Client"
+        },
+        "method": {
+          "short_name": "ComputeRoutes",
+          "full_name": "google.maps.routing.v2.Routes.ComputeRoutes",
+          "service": {
+            "short_name": "Routes",
+            "full_name": "google.maps.routing.v2.Routes"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 28,
+          "end": 49,
+          "type": "FULL"
+        }
+      ]
+    },
+    {
+      "region_tag": "routing_v2_generated_Routes_ComputeRouteMatrix_sync",
+      "title": "Snippet for the compute_route_matrix call in the Routes service",
+      "description": "This is an auto-generated example demonstrating basic usage of Google::Maps::Routing::V2::Routes::Client#compute_route_matrix. It may require modification in order to execute successfully.",
+      "file": "routes/compute_route_matrix.rb",
+      "language": "RUBY",
+      "client_method": {
+        "short_name": "compute_route_matrix",
+        "full_name": "::Google::Maps::Routing::V2::Routes::Client#compute_route_matrix",
+        "async": false,
+        "parameters": [
+          {
+            "type": "::Google::Maps::Routing::V2::ComputeRouteMatrixRequest",
+            "name": "request"
+          }
+        ],
+        "result_type": "::Google::Maps::Routing::V2::RouteMatrixElement",
+        "client": {
+          "short_name": "Routes::Client",
+          "full_name": "::Google::Maps::Routing::V2::Routes::Client"
+        },
+        "method": {
+          "short_name": "ComputeRouteMatrix",
+          "full_name": "google.maps.routing.v2.Routes.ComputeRouteMatrix",
+          "service": {
+            "short_name": "Routes",
+            "full_name": "google.maps.routing.v2.Routes"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 28,
+          "end": 52,
+          "type": "FULL"
+        }
+      ]
+    }
+  ]
+}
